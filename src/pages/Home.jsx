@@ -2,6 +2,7 @@ import Hero from '../components/Hero/Hero.jsx'
 import Header from '../components/Header/Header.jsx'
 import Footer from '../components/Footer/Footer.jsx'
 import ProjectsList from '../components/ProjectsList/ProjectsList.jsx'
+
 function Home() {
     return (
         <>
