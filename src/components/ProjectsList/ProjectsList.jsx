@@ -56,7 +56,7 @@ function ProjectsList() {
                                 <div className="thumb tertiary-background" style={{ backgroundImage: `url(${project.thumb})`}}></div>
                                 <h3>{project.title}</h3>
                                 <p>{project.subtitle}</p>
-                                <Button buttonStyle="unstyled" onClick={savedFavProjects(project.id)}>
+                                <Button buttonStyle="unstyled" onClick={() => savedFavProjects(project.id)}>
                                     <img src={favProjects.includes(project.id) ? LikedClicado : LikedDesclicado} height="20px"/>
                                 </Button>
                                 
